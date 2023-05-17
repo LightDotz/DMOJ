@@ -1,4 +1,4 @@
 # DMOJ
 
 dmoj stuff
-idkr
+used visual studio

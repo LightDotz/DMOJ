@@ -1,4 +1,5 @@
 # DMOJ
 
-dmoj stuff
-used visual studio
+dmoj stuff<br>
+used visual studio<br>
+i hate c++

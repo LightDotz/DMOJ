@@ -18,11 +18,52 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acid.cpp" />
+    <ClCompile Include="alonetime.cpp" />
+    <ClCompile Include="animal pen.cpp" />
+    <ClCompile Include="arith square.cpp" />
+    <ClCompile Include="books.cpp" />
+    <ClCompile Include="books2.cpp" />
+    <ClCompile Include="bsspc 1.cpp" />
+    <ClCompile Include="chainrule.cpp" />
+    <ClCompile Include="circleoflife.cpp" />
+    <ClCompile Include="convexhull.cpp" />
+    <ClCompile Include="mincostflow.cpp" />
+    <ClCompile Include="minimumcostroads.cpp" />
+    <ClCompile Include="mock ccc j.cpp" />
+    <ClCompile Include="quine.cpp" />
+    <ClCompile Include="wireless.cpp" />
+    <ClCompile Include="pho.cpp" />
+    <ClCompile Include="too simple.cpp" />
+    <ClCompile Include="sssp.cpp" />
+    <ClCompile Include="crtanje.cpp" />
+    <ClCompile Include="dmopc 1.cpp" />
+    <ClCompile Include="dmopc2.cpp" />
+    <ClCompile Include="dpa.cpp" />
+    <ClCompile Include="escaperoom.cpp" />
+    <ClCompile Include="fib num easy.cpp" />
+    <ClCompile Include="floorplan.cpp" />
+    <ClCompile Include="friends.cpp" />
+    <ClCompile Include="gates.cpp" />
+    <ClCompile Include="gates2.cpp" />
+    <ClCompile Include="art.cpp" />
+    <ClCompile Include="golf.cpp" />
+    <ClCompile Include="knight.cpp" />
+    <ClCompile Include="maze.cpp" />
+    <ClCompile Include="nail.cpp" />
+    <ClCompile Include="pi day.cpp" />
+    <ClCompile Include="robothieves.cpp" />
+    <ClCompile Include="seperation.cpp" />
+    <ClCompile Include="strategic.cpp" />
+    <ClCompile Include="winning.cpp" />
+    <ClCompile Include="yac1.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9275f7aa-e46b-434a-ac71-629f9b05b54f}</ProjectGuid>
-    <RootNamespace>DMOJ</RootNamespace>
+    <ProjectGuid>{91272086-2dd9-460d-a443-c4487931c1a6}</ProjectGuid>
+    <RootNamespace>LearningCpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,12 +111,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,8 +156,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,9 +181,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="DMOJ.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

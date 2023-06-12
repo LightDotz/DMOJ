@@ -27,8 +27,10 @@
     <ClCompile Include="books2.cpp" />
     <ClCompile Include="bsspc 1.cpp" />
     <ClCompile Include="chainrule.cpp" />
+    <ClCompile Include="chancesofwinning.cpp" />
     <ClCompile Include="circleoflife.cpp" />
     <ClCompile Include="convexhull.cpp" />
+    <ClCompile Include="fenwick tree.cpp" />
     <ClCompile Include="mincostflow.cpp" />
     <ClCompile Include="minimumcostroads.cpp" />
     <ClCompile Include="mock ccc j.cpp" />

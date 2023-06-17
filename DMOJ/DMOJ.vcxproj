@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="acid.cpp" />
+    <ClCompile Include="aliceglass.cpp" />
     <ClCompile Include="alonetime.cpp" />
     <ClCompile Include="animal pen.cpp" />
     <ClCompile Include="arith square.cpp" />

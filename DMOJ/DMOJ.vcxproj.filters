@@ -124,6 +124,9 @@
     <ClCompile Include="chancesofwinning.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="aliceglass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
